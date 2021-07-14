@@ -84,6 +84,7 @@ func Provider() *schema.Provider {
 			"ovh_cloud_project":                                           resourceCloudProject(),
 			"ovh_cloud_project_containerregistry":                         resourceCloudProjectContainerRegistry(),
 			"ovh_cloud_project_containerregistry_user":                    resourceCloudProjectContainerRegistryUser(),
+			"ovh_cloud_project_database":                                  resourceCloudProjectDatabase(),
 			"ovh_cloud_project_kube":                                      resourceCloudProjectKube(),
 			"ovh_cloud_project_kube_nodepool":                             resourceCloudProjectKubeNodePool(),
 			"ovh_cloud_project_network_private":                           resourceCloudProjectNetworkPrivate(),
